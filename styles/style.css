@@ -1,0 +1,43 @@
+/* Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+
+/* Style */
+body {
+    background-color: #d90009;
+}
+
+#generate-grid-button {
+    display: block;
+    margin: 5px auto;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.white-background {
+    background-color: #efefef;
+}
+
+#container {
+    width: 700px;
+    height: 700px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    border: 20px solid #970007;
+    border-radius: 20px;
+}
+
+#container > div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #efefef;
+    border: 1px solid #cbcbcb;
+}
